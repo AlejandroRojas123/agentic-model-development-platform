@@ -8,24 +8,23 @@ Version 1, Milestone 0: Project Foundation
 
 ## Recently Completed
 
-- Finalized the project name and created the repository
-- Defined project vision and initial roadmap and project status
+- Made our first structured commit
+- Created the initial directory structure
+- Decided our Python environment and packaging approach
+- Created the first ADR 0001
 
 ## Currently Working On
 
-- Building Freddie Mac data ingestion pipeline
+- Establishing the Python development environment and package structure for Version 1
 
 ## Next Steps
 
-1. Create the initial directory structure
-2. Create docs/adr/ and ADR 0001 (ie the first Architecture Decision Record)
-3. Decide our Python environment and packaging approach
-4. Make our first structured commit
+1. Create the minimal directory structure implied by ADR 0001.
+2. Verify the environment and one trivial test.
 
 ## Open Questions
 
-- What exactly is meant by creating a directory structure? Isn't that done as we go along?
-- Did I technically already complete the first structured commit?
+1. Did I already create the minimal directory structure implied by ADR 0001?
 
 ## Current Blockers
 

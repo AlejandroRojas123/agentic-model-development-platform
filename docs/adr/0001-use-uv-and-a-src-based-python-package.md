@@ -1,0 +1,1 @@
+The project will use Python 3.12, uv, pyproject.toml, and a src/amdp package layout, with pytest as the initial testing framework.
