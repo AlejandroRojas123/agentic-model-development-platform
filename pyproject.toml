@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agentic-model-development-platform"
+version = "0.1.0"
+description = "An AI-native platform for quantitative model development lifecycle automation."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [
+    { name = "Alejandro Rojas" }
+]
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/amdp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "--import-mode=importlib",
+]
