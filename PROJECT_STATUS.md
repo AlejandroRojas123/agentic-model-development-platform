@@ -12,6 +12,8 @@ Version 1, Milestone 0: Project Foundation
 - Created the initial directory structure
 - Decided our Python environment and packaging approach
 - Created the first ADR 0001
+- Created the minimal directory structure implied by ADR 0001.
+- Verified the environment and one trivial test.
 
 ## Currently Working On
 
@@ -19,12 +21,11 @@ Version 1, Milestone 0: Project Foundation
 
 ## Next Steps
 
-1. Create the minimal directory structure implied by ADR 0001.
-2. Verify the environment and one trivial test.
+1. Add context, alternatives, rationale, status, and consequences to ADR 0001.
 
 ## Open Questions
 
-1. Did I already create the minimal directory structure implied by ADR 0001?
+1. Why doesn't the Terminal in VS Code recognize uv but PowerShell does?
 
 ## Current Blockers
 
