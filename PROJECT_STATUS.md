@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-07-19
+Last updated: 2026-07-22
 
 ## Current Phase
 
@@ -14,18 +14,20 @@ Version 1, Milestone 0: Project Foundation
 - Created the first ADR 0001
 - Created the minimal directory structure implied by ADR 0001.
 - Verified the environment and one trivial test.
+- Established the Python development environment and package structure for Version 1
+- Added context, alternatives, rationale, status, and consequences to ADR 0001.
 
 ## Currently Working On
 
-- Establishing the Python development environment and package structure for Version 1
+- Defining the precise mortgage modeling problem
 
 ## Next Steps
 
-1. Add context, alternatives, rationale, status, and consequences to ADR 0001.
+NA
 
 ## Open Questions
 
-1. Why doesn't the Terminal in VS Code recognize uv but PowerShell does?
+None
 
 ## Current Blockers
 
